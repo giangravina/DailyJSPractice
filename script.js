@@ -98,7 +98,7 @@ john.average = calcAverage(john.tips);
 mike.average = calcAverage(mike.tips);
 console.log(john, mike);
 
-if (john.average > mark.average) {
+if (john.average > mike.average) {
     console.log(john.fullName + '\'s family pays higher tips, with an average of $' + john.average);
 } else if (mike.average > john.average) {
     console.log(mike.fullName + '\'s family pays higher tips, with an average of $' + mike.average);
